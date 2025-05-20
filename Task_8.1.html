@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        form,
+        label,
+        input {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        input[type="submit"]:hover {
+            background-color: lawngreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./Task_8.html" autocomplete="off">
+        <label for="Username"> Username: </label>
+        <input type="text" id="Username" required placeholder="Username or Email"><br>
+        <label for="pwsd"> Password: </label>
+        <input type="password" id="pwsd" required placeholder="Password"><br>
+        <input type="checkbox" id="remember_me">
+        <label for="remember_me"> Remember me</label>
+        <label for="forget password"><a href="#">Forgot Password</a></label><br>
+        <input type="submit" id="submit" value="LOG IN">
+
+    </form>
+</body>
+
+</html>
